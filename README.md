@@ -83,8 +83,8 @@ offers_calculator/            # Glavni direktorij Django projekta
      
 1. Klonirajte repozitorij:
    ```bash
-   git clone https://github.com/vaše-korisničko-ime/treci_parcijalnit.git
-   cd parcijalni-ispit
+   git clone https://github.com/vaše-korisničko-ime/treci_parcijalni.git
+   cd treci_parcijalni
    ```
 
 2. Kreirajte virtualno okruženje:
