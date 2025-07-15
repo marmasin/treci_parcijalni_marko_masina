@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'accounts',  # Custom app for users
     'products',  # Custom app for products
     'offers',  # Custom app for offers
+    'customers', #dodan customers app
 ]
 INSTALLED_APPS += ['scripts']
 

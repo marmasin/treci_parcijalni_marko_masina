@@ -6,6 +6,7 @@ from products.models import Product
 from django.contrib.auth.models import User
 from django.views.decorators.http import require_http_methods
 from decimal import Decimal
+from customers.models import Customer  # dodan customers app
 
 
 @login_required
@@ -23,6 +24,7 @@ def offer_list(request):
             {
                 "id": offer.id,
                 "customer": offer.customer.username,
+                "tenant": offer.tenant.name,   
                 "date": offer.date,
                 "sub_total": float(offer.sub_total),
                 "tax": float(offer.tax),
